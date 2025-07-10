@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class IMensagem {
+public interface IMensagem {
+    void enviar(String destino, String mensagem);
 }

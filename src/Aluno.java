@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class Aluno extends UsuarioBiblioteca {
+    private int calcularMulta;
 
-public class Aluno {
+    public Aluno (String nome, int diasAtraso) {
+        super(nome, diasAtraso);
+    }
+    @Override
+    public double calcularMulta() {
+        return diasAtraso * 0.50;
+    }
+
 }

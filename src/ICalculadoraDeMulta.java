@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class ICalculadoraDeMulta {
+public interface ICalculadoraDeMulta {
+    double calcularMulta(UsuarioBiblioteca usuario);
 }
